@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 448px){
+    body {
+        background-color: rgb(57, 21, 91);
+    }
+
+    /* NavBar */
+    .navBar {
+        display: flex;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(30, 5, 52);
+        color: #fff;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #navP {
+        font-family: cursive;
+        font-size: 20px;
+        color: #66a4e2;
+    }
+
+    #navSpan {
+        color: #fff;
+    }
+
+    .bx-x {
+        font-size: 25px;
+    }
+
+    .bx-dots-vertical-rounded {
+        font-size: 25px;
+    }
+
+    /* LandingPage */
+    #coin {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    #smallCoin {
+        width: 20%;
+    }
+
+    #amountInput {
+        outline: none;
+        border: 1px solid transparent;
+        background: transparent;
+        font-size: 40px;
+        color: #fff;
+        max-width: 65%;
+        cursor: none;
+    }
+
+    #amountInput::placeholder {
+        color: #fff;
+    }
+
+    #master {
+        color: #ffffff70;
+        font-size: 18px;
+    }
+
+    #level {
+        display: flex;
+        align-items: center;
+        margin-left: 130px;
+    }
+
+    #trophy {
+        width: 15%;
+    }
+
+    /* Big Coin */
+    #bigCoin {
+        position: relative;
+    }
+
+    #goldShadow {
+        position: absolute;
+        left: -450px;
+        opacity: 10;
+    }
+
+    #bigDevCoin {
+        position: relative;
+        width: 90%;
+        z-index: 10000;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+
+    /* Progress bar */
+
+    #parent {
+        background: grey;
+        border: 1px solid grey;
+        /* padding: 7px; */
+        width: 84%;
+        margin-left: 30px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+    }
+
+    #child {
+        background: rgb(213, 159, 22);
+        width: 100%;
+        padding: 7px;
+        border-radius: 10px;
+        border: 3px solid rgba(0, 0, 0, 0.249);
+    }
+
+    #totalProgress {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-left: 130px;
+    }
+
+    #userP {
+        max-width: 20%;
+        font-size: 20px;
+        margin-bottom: 10px;
+        background: transparent;
+        border: transparent;
+    }
+
+    #userP::placeholder {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    #totalP {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .bx-meteor {
+        font-size: 20px;
+        color: rgb(210, 180, 8);
+        margin-bottom: 10px;
+    }
+
+    /* Down Nav */
+    #buttons {
+        display: flex;
+        gap: 10px;
+        margin-left: 30px;
+    }
+
+    #ref {
+        width: 16%;
+        border-radius: 10px;
+        padding: 7px;
+        border: 1px solid rgba(128, 128, 128, 0.315);
+        background: rgba(128, 128, 128, 0.315);
+    }
+
+    #refText {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    #ref img {
+        width: 45%;
+    }
+
+    #task {
+        width: 16%;
+        border-radius: 10px;
+        padding: 7px;
+        border: 1px solid rgba(128, 128, 128, 0.315);
+        background: rgba(128, 128, 128, 0.315);
+    }
+}
+
+#taskText {
+    color: #fff;
+    font-size: 16px;
+}
+
+#task img {
+    width: 45%;
+}
+
+#tap {
+    width: 16%;
+    border-radius: 10px;
+    padding: 7px;
+    border: 2px solid rgb(210, 180, 8);
+    background: rgba(128, 128, 128, 0.315);
+}
+
+#tapText {
+    color: #fff;
+    font-size: 16px;
+}
+
+#tap img {
+    width: 45%;
+}
+
+#boost {
+    width: 16%;
+    border-radius: 10px;
+    padding: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    background: rgba(128, 128, 128, 0.315);
+}
+
+#boostText {
+    color: #fff;
+    font-size: 16px;
+}
+
+#boost img {
+    width: 45%;
+}
+
+#stats {
+    width: 16%;
+    border-radius: 10px;
+    padding: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    background: rgba(128, 128, 128, 0.315);
+}
+
+#statsText {
+    color: #fff;
+    font-size: 16px;
+}
+
+#stats img {
+    width: 45%;
+}
